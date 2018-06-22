@@ -1,12 +1,9 @@
-body {
-    margin: 0;
-    font-size: 28px;
-  }
-  
+
   .header {
-    background-color: #f1f1f1;
+    background-color: #FFFFFF	;
     padding: 30px;
     text-align: center;
+    top: 0;
   }
   
   #navbar {
@@ -47,3 +44,174 @@ body {
   .sticky + .content {
     padding-top: 60px;
   }
+
+  .contactUsText {
+    text-align: right
+  }
+
+  .homeText {
+    position: absolute;
+    left: 150px;
+    top: 70px;
+  }
+
+  .homeText::after{
+    left: 500px;
+    top: -36px;  
+  }
+
+  .homeImg {
+    width: 500px;
+    object-fit: cover;
+    position: relative;
+    
+  }
+  .blankChart{
+    width: 200px;
+    object-fit: cover;
+    position: absolute;
+    right: 35px;
+    top: 230px;
+  }
+
+  .webSiteImg {
+    width: 120px;
+    object-fit: cover;
+    position: absolute;
+    left: 50px;
+    top: 220px;
+  }
+  .webSiteImgText{
+    position: absolute;
+    font-size: 20px;
+    left: 50px;
+    top: 330px;
+  }
+ 
+  .webAppImg {
+    width: 130px;
+    object-fit: cover;
+    position: absolute;
+    left: 200px;
+    top: 220px;
+  }
+.webAppImgText{
+  position: absolute;
+  font-size: 20px;
+  left: 200px;
+  top: 330px;
+}
+  .mobileAppImg {
+    width: 130px;
+    object-fit: cover;
+    position: absolute;
+    left: 350px;
+    top: 220px;
+  }
+  .mobileAppImgText{
+    position: absolute;
+    font-size: 20px;
+    left: 350px;
+    top: 330px;
+  }
+
+  .knowMore{
+    font-size: 15px;
+    padding-left: 25px;
+  }
+  
+  .webSiteNameBar {
+    overflow: hidden;
+    background-color:#22b24d;
+    color: #FFFFFF;
+    position: fixed;
+    top: 6px;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    font-family: "Lucida Console", Monaco, monospacey;
+    font-size: 20px;
+    padding:5px 10px 5px 17px;
+  }
+  .homeMiddleContainer{
+      background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),
+      url("./images/beverage-computer-flower-948888_3.jpg");
+
+      background-size:     auto;  
+   /*  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   /* filter: grayscale(100%);*/
+  }
+
+  /*@media screen and (max-width: 600px) {
+    .homeImg {
+      max-width: 350px;
+      object-fit: cover;
+    }
+  }
+  @media(any-pointer){
+    div:hover{
+        color:red;
+    }
+}*/
+
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+/*@media screen and (min-width: 1281px) {
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+/*@media screen and (min-width: 1025px) and (max-width: 1280px) and (any-pointer) {
+    div{
+      background-color: #333
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .homeImg {
+    max-width: 500px;
+    object-fit: cover;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+/*@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .homeImg {
+    max-width: 350px;
+    object-fit: cover;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/*@media screen and (min-width: 320px) and (max-width: 480px) {
+  
+  
+}*/

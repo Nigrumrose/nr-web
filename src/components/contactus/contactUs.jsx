@@ -13,7 +13,7 @@ class ContactUs extends React.Component {
     render() {
     	return (
             <div>
-                <div class="container">
+                <div class="container" id="contactUS">
                     <div class="row">
                         <div class="col-sm-8">
                             <form>
